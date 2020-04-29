@@ -1,1 +1,6 @@
 # ROC_AUC
+
+Exercise 1. [ROC and AUC] 
+You are reviewer for an international conference on machine learning. Among the submissions are two independent papers, each proposing a solution to the important problem of automatic classiﬁcation of hand-crafted contemporary art pottery. As you are an expert in this emerging new ﬁeld, you are asked to write a review of the two papers. In both papers, the quality of the proposed classiﬁer is evaluated by plotting the ROC curves. Author 1 reports an AUC of 0.73, Author 2 reports an AUC of 0.70. Both authors made the results of their classiﬁer available as supplementary material. However, the authors used diﬀerent datasets to evaluate their methods. You can ﬁnd the dataset Y1 (the true labels) and the prediction f1 of the ﬁrst author as well as the dataset Y2 and the prediction f2 of the second author in the ﬁle auc.mat.
+
+Inspect the datasets and the predictions made by the two methods. Reproduce the values of the AUC reported by the two authors by means of the function PlotROC. Perform 1000 runs of a random classiﬁer on each dataset and compare the ROC curves and the AUC values obtained by the two methods with the results of the random classiﬁers. Report your results. 
